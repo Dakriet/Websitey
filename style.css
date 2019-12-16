@@ -1,0 +1,109 @@
+/* Basislayout */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+
+    color: #303030;
+    font: Verdana, Arial, Sans-Serif;
+}
+
+body {
+    background-image: url(Afbeeldingen/background2.jpg);
+    background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size:cover;
+}
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+article {
+    text-align: justify;
+}
+
+.header2 {
+    color: red;
+    }
+
+header {
+    color: black;
+    text-align: center;
+}
+
+figcaption { 
+    clear: both;
+    display:block;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* specifieke stijlen */
+
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* navigatiebalk */
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #aaaaaa;
+}
+
+nav li a.active {
+    background-color: #5980A3;
+}
+
+#midden{
+    text-align: center
+}
+    
